@@ -1,0 +1,110 @@
+html {
+  font-size: 20px;
+  font-family: Arial, sans-serif; 
+}
+
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+}
+p {
+  opacity: 1;
+  font-size: 24px;
+  line-height: 2;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+p.italic {
+  font-style: oblique;
+}
+
+p:hover{
+  text-align: right;
+  text-decoration: #fffd72 wavy underline; 
+}
+
+a {
+ text-decoration: wavy underline; 
+}
+
+li {
+  opacity: 1;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+mark {
+  background-color: #ffffff;
+  opacity: 1;
+  padding: 3px;
+}
+
+html {
+  background-color: #fffd72;
+}
+
+body {
+  border-radius: 10px;
+  width: 600px;
+  margin: 0 auto;
+  background-color: #bfffbc;   
+  padding: 30px 60px 60px 60px;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #fffd72;
+  text-shadow: 5px 3px 1px black;
+}
+
+h2 {
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #fffd72;
+  text-shadow: 2px 2px 2px #bfffbc;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.text {
+  padding: 5px 20px 20px 20px;
+  border-radius: 10px;
+  background-color: #bfffbc;
+  /* opacity: 0.9; */
+  /* border-style: dotted none dashed none;
+  border-width: 8px; */
+  border-color:#ffffff;
+}
+
+.buttons {
+  opacity: 1;
+  margin: auto;
+  text-align: center;
+}
+
+.button {
+  opacity: 1;
+  background-color: #fffd72; 
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 32px;
+  width: 160px;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
